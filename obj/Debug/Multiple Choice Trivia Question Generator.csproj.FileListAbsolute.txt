@@ -1,0 +1,10 @@
+C:\Users\Home\source\repos\Multiple Choice Trivia Question Generator\Multiple Choice Trivia Question Generator\bin\Debug\Multiple Choice Trivia Question Generator.exe.config
+C:\Users\Home\source\repos\Multiple Choice Trivia Question Generator\Multiple Choice Trivia Question Generator\bin\Debug\Multiple Choice Trivia Question Generator.exe
+C:\Users\Home\source\repos\Multiple Choice Trivia Question Generator\Multiple Choice Trivia Question Generator\bin\Debug\Multiple Choice Trivia Question Generator.pdb
+C:\Users\Home\source\repos\Multiple Choice Trivia Question Generator\Multiple Choice Trivia Question Generator\obj\Debug\Multiple Choice Trivia Question Generator.csprojAssemblyReference.cache
+C:\Users\Home\source\repos\Multiple Choice Trivia Question Generator\Multiple Choice Trivia Question Generator\obj\Debug\Multiple_Choice_Trivia_Question_Generator.Form1.resources
+C:\Users\Home\source\repos\Multiple Choice Trivia Question Generator\Multiple Choice Trivia Question Generator\obj\Debug\Multiple_Choice_Trivia_Question_Generator.Properties.Resources.resources
+C:\Users\Home\source\repos\Multiple Choice Trivia Question Generator\Multiple Choice Trivia Question Generator\obj\Debug\Multiple Choice Trivia Question Generator.csproj.GenerateResource.cache
+C:\Users\Home\source\repos\Multiple Choice Trivia Question Generator\Multiple Choice Trivia Question Generator\obj\Debug\Multiple Choice Trivia Question Generator.csproj.CoreCompileInputs.cache
+C:\Users\Home\source\repos\Multiple Choice Trivia Question Generator\Multiple Choice Trivia Question Generator\obj\Debug\Multiple Choice Trivia Question Generator.exe
+C:\Users\Home\source\repos\Multiple Choice Trivia Question Generator\Multiple Choice Trivia Question Generator\obj\Debug\Multiple Choice Trivia Question Generator.pdb
