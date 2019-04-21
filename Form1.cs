@@ -64,13 +64,12 @@ namespace Multiple_Choice_Trivia_Question_Generator
             if (!(radioButton1.Checked || radioButton2.Checked || radioButton3.Checked || radioButton4.Checked))
             {
                 isABCD_Selected = false;
-                isEntryValid = false;
                 MessageBox.Show("Answer's radio button not selected");
             }
             else
-            {
-                isEntryValid = true;
+            {                
                 isABCD_Selected = true;
+                checkIfValid();
             }
             
 
@@ -96,6 +95,7 @@ namespace Multiple_Choice_Trivia_Question_Generator
                     streamWriter.WriteLine(choiceThreeString);
                     streamWriter.WriteLine(choiceFourString);
                 }
+                MessageBox.Show("Question added: \n" + questionString);
             }
             else
                 MessageBox.Show("Entry not valid");
@@ -136,7 +136,7 @@ namespace Multiple_Choice_Trivia_Question_Generator
         private void button6_Click(object sender, EventArgs e)
         {
             choiceFourString = choiceFour.Text.Trim();
-            if (choiceFourString == "")
+            if (choiceFourString.Length == 0)
             {
                 isChoiceFourValid = false;
                 isEntryValid = false;
@@ -223,7 +223,7 @@ namespace Multiple_Choice_Trivia_Question_Generator
         private void updateQuestion_Click(object sender, EventArgs e)
         {
             questionString = questionText.Text.Trim();
-            if (questionString == "")
+            if (questionString.Length == 0)
             {
                 isQuestionValid = false;
                 isEntryValid = false;
@@ -240,7 +240,7 @@ namespace Multiple_Choice_Trivia_Question_Generator
         private void updateAnswer_Click(object sender, EventArgs e)
         {
             descriptionString = descriptionText.Text.Trim();
-            if (descriptionString == "")
+            if (descriptionString.Length == 0)
             {
                 isDescriptionValid = false;
                 isEntryValid = false;
@@ -257,7 +257,7 @@ namespace Multiple_Choice_Trivia_Question_Generator
         private void updateOne_Click(object sender, EventArgs e)
         {
             choiceOneString = choiceOne.Text.Trim();
-            if (choiceOneString == "")
+            if (choiceOneString.Length == 0)
             {
                 isChoiceOneValid = false;
                 isEntryValid = false;
@@ -276,7 +276,7 @@ namespace Multiple_Choice_Trivia_Question_Generator
         private void updateTwo_Click(object sender, EventArgs e)
         {
             choiceTwoString = choiceTwo.Text.Trim();
-            if (choiceTwoString == "")
+            if (choiceTwoString.Length == 0)
             {
                 isChoiceTwoValid = false;
                 isEntryValid = false;
@@ -295,7 +295,7 @@ namespace Multiple_Choice_Trivia_Question_Generator
         private void updateThree_Click(object sender, EventArgs e)
         {
             choiceThreeString = choiceThree.Text.Trim();
-            if (choiceThreeString == "")
+            if (choiceThreeString.Length == 0)
             {
                 isChoiceThreeValid = false;
                 isEntryValid = false;
@@ -314,6 +314,20 @@ namespace Multiple_Choice_Trivia_Question_Generator
         private void updateFullQuestion()
         {
             
+        }
+
+        private void checkIfValid()
+        {
+            if(isQuestionValid && isDescriptionValid && isChoiceOneValid && isChoiceTwoValid && isChoiceThreeValid
+                && isChoiceFourValid)
+            {
+                isEntryValid = true;
+            }
+        }
+
+        private void buttonQuit_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

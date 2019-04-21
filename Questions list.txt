@@ -117,20 +117,20 @@ Levi
 Judah
 Ephraim
 Reuben
-Question
-N
-D
-1
-2
+What was Abraham's name before God changed it?
 3
-4
-Question
-N
-D
-1
+God changed his name from Abram(father) to Abraham(father of many) as he would be the descendant of a nation
+Nahor
+Adam
+Abram
+Abrahim
+What was the name of the island where Paul was shipwrecked on his way to Rome?
 2
-3
-4
+Though the ship was destroyed, everyone on board were unharmed and swam or drifted on the shore of Malta
+Tyre
+Malta
+Sidon
+Ceres
 Why did Nicodemus have to visit Jesus at night instead of during the day?
 3
 Those who followed Jesus were harshly treated by the Pharisees. They would most likely have been thrown out of the synagogue.
@@ -159,3 +159,36 @@ Joseph and Benjamin
 Perez and Uzziah
 Judah, Benjamin and Joseph
 Simeon and Levi
+
+
+Who supplemented Apollos in his ministry?
+2
+Up until this point Apollos only knew the baptism of John, though he was still able to preach about Jesus accurately from just the Law and the prophets
+Peter and John
+Priscilla and Aquila
+Paul and Barnabas
+Silas and Timothy
+
+What was the passover lamb to be eaten with?
+2
+In addition to this, the lamb was not to be kept for the next day but burned.
+Wine in new wineskins
+Bitter herbs and bread made without yeast
+Mana from heaven
+Nothing
+
+How many unclean spririts did Jesus remove from Mary Magdelene?
+2
+The number removed may likely mean that all the unclean spirits were removed, as the number seven represents completion or the complete set as a quantifiable measure
+One
+Seven
+Three
+Ten
+
+Where did Joseph take Mary and the baby Jesus when he was warned about Herod's intent to kill Jesus?
+4
+As instructed by the angel, they escaped to Egypt and returned after Herod's death as foretold by the prophets
+Bethlehem
+Capernaum
+Nazereth
+Egypt
