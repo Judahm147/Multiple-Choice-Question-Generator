@@ -77,18 +77,18 @@ namespace Multiple_Choice_Trivia_Question_Generator
             {
                 using (StreamWriter streamWriter = new StreamWriter(fileName, true))
                 {
-                    string answerNumber = "1";
+                    string answer = "";
                     if (radioButton1.Checked)
-                        answerNumber = "1";
+                        answer = choiceOneString;
                     else if (radioButton2.Checked)
-                        answerNumber = "2";
+                        answer = choiceTwoString;
                     else if (radioButton3.Checked)
-                        answerNumber = "3";
+                        answer = choiceThreeString;
                     else
-                        answerNumber = "4";
+                        answer = choiceFourString;
                     streamWriter.Write('\n');
                     streamWriter.WriteLine(questionString);
-                    streamWriter.WriteLine(answerNumber);
+                    streamWriter.WriteLine(answer);
                     streamWriter.WriteLine(descriptionString);
                     streamWriter.WriteLine(choiceOneString);
                     streamWriter.WriteLine(choiceTwoString);
@@ -328,6 +328,11 @@ namespace Multiple_Choice_Trivia_Question_Generator
         private void buttonQuit_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
