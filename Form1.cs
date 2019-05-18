@@ -55,10 +55,12 @@ namespace Multiple_Choice_Trivia_Question_Generator
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
-            
+
+
             //To do - Input check for all fields to be entered otherwise, abort
-            string fileName = "C:/Users/Home/source/repos/Multiple Choice Trivia Question Generator/Multiple Choice Trivia Question Generator/Questions list.txt";
+            string projectPath = Path.GetDirectoryName(Path.GetDirectoryName(System.IO.Directory.GetCurrentDirectory()));
+
+            string fileName = projectPath + "/Questions list.txt";
             
 
             if (!(radioButton1.Checked || radioButton2.Checked || radioButton3.Checked || radioButton4.Checked))
